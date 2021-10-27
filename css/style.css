@@ -42,7 +42,7 @@ body{
 
 .nav{
     display: flex;
-    justify-content: left;
+    justify-content: right;
     height: 70px;
     align-items: center;
     font-weight: 1000;
@@ -89,13 +89,14 @@ body{
     font-size: 2rem;
     font-weight: 300;
     margin: 15px 0;
+    color: brown;
 }
 
 .hero_cta{
     display: inline-block;
-    background: #fff;
+    background: rgb(6, 111, 248);
     padding: var(--boton-padding);
-    color: var(--color-primary);
+    color: #fff;
     text-decoration: none;
     border-radius: 40px;
 }
@@ -127,6 +128,7 @@ body{
 .presentation_copy{
     width: 80%;
     margin: 0 auto;
+    font-size: x-large;
 }
 
 .presentation_cta{
