@@ -301,10 +301,22 @@ body{
 }
 
 .footer_grid{
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 3fr 2fr;
     gap: 20px;
     align-items: center;
+}
+
+.footer__copyright{
+    font-size: 22px;
+    color: #fff;
+    padding-top: 30px;
+    border-top: 2px solid #918484;
+    text-align: center;
+}
+
+.footer__copyright::after{
+    content: " bastian.lillo.7311@gmail.com";
 }
 
 .footer_title{
@@ -338,6 +350,10 @@ body{
 }
 
 .fab.footer_icon{
+    line-height: 60px;
+}
+
+.fas.footer_icon{
     line-height: 60px;
 }
 
